@@ -15,6 +15,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -113,6 +114,19 @@ div img{
     margin-top: 3rem;
 }
 
+
+.attributtion{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.attributtion a{
+    color: var(--verydarkblue);
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
 @media  only screen and (max-width: 600px) {
     main{
         display: flex;
@@ -196,5 +210,14 @@ div img{
         margin-top: 2rem;
         display: flex;
         align-self: flex-end;
+    }
+
+    .attributtion{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 }
